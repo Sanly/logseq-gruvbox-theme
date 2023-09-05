@@ -1,2 +1,2 @@
 * logseq-gruvbox-theme
-Gruvbox theme for logseq.
+Based on straycosmicllama's Gruvbox theme for logseq.
