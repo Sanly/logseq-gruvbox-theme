@@ -46,7 +46,9 @@ html[data-theme='dark'] {
   --ls-table-tr-even-background-color: var(--ls-tertiary-background-color);
   --ls-active-primary-color: #7daea3;
   --ls-block-properties-background-color: #292828;
-  --ls-page-properties-background-color: var(--ls-block-properties-background-color);
+  --ls-page-properties-background-color: var(
+    --ls-block-properties-background-color
+  );
   --ls-block-ref-link-text-color: #a9b665;
   --ls-border-color: #d8a657;
   --ls-guideline-color: #7c6f64;
@@ -85,6 +87,21 @@ html[data-theme='dark'] {
   --ls-a-chosen-bg: var(--ls-quaternary-background-color);
   --ls-header-button-background: var(--ls-secondary-text-color);
 }
+.cm-s-solarized.CodeMirror {
+  box-shadow: none;
+}
+.cm-s-solarized.cm-s-dark {
+  background-color: #514945;
+  color: var(--ls-link-text-color);
+}
+.cm-s-solarized.cm-s-dark .CodeMirror-gutters {
+  background-color: #46403d;
+}
+.cm-s-solarized.cm-s-dark .CodeMirror-linenumber {
+  color: var(--ls-link-text-color);
+  text-shadow: none;
+}
+
 .left-sidebar-inner a.item,
 .left-sidebar-inner .nav-content-item .header,
 .left-sidebar-inner .nav-content-item .bd ul a,
