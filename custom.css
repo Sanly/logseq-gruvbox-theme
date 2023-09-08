@@ -93,6 +93,7 @@ html[data-theme='dark'] {
 .cm-s-solarized.cm-s-dark {
   background-color: #514945;
   color: var(--ls-link-text-color);
+  text-shadow: none;
 }
 .cm-s-solarized.cm-s-dark .CodeMirror-gutters {
   background-color: #46403d;
@@ -101,7 +102,22 @@ html[data-theme='dark'] {
   color: var(--ls-link-text-color);
   text-shadow: none;
 }
-
+.extensions__pdf-container[data-theme='dark'] {
+  background-color: var(--ls-primary-background-color);
+}
+.extensions__pdf-container[data-theme='dark'] .textLayer {
+  background-color: var(--ls-primary-background-color);
+}
+.textLayer {
+  opacity: 1;
+}
+.extensions__pdf-hls-ctx-menu {
+  background-color: var(--ls-primary-background-color);
+  color: var(--ls-primary-text-color);
+}
+.extensions__pdf-hls-ctx-menu > li.item:hover {
+  background-color: var(--ls-quaternary-background-color);
+}
 .left-sidebar-inner a.item,
 .left-sidebar-inner .nav-content-item .header,
 .left-sidebar-inner .nav-content-item .bd ul a,
