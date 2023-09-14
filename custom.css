@@ -422,6 +422,17 @@ body[data-awpr-block-props-icons]
   font-size: 0.8em;
 }
 
+/* 块引用 */
+.open-block-ref-link {
+  background-color: var(--ls-link-text-color);
+  color: var(--ls-primary-background-color);
+  border-radius: 50%;
+  padding: 0px 5px;
+}
+a.fade-link:hover {
+  color: var(--ls-quaternary-background-color);
+}
+
 /* 简洁导航栏 */
 .nav-header {
   margin-left: 2px;
@@ -469,6 +480,8 @@ body[data-awpr-block-props-icons]
 
 .block-children-left-border {
   background-color: var(--ls-block-bullet-color);
+  width: 2px;
+  left: 0px;
   z-index: auto;
   opacity: 0.5;
 }
@@ -498,7 +511,7 @@ body[data-awpr-block-props-icons]
   font-size: inherit;
   text-decoration-style: solid;
   text-decoration: underline;
-  text-decoration-color: rgba(245, 158, 11, 0.5);
+  text-decoration-color: #ffbf4081;
   text-decoration-thickness: 6px;
   text-underline-offset: -3px;
   text-decoration-skip-ink: none;
