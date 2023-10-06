@@ -531,6 +531,16 @@ span.unlink-highlight {
   padding: 0;
 }
 
+.textLayer .highlight {
+  background-color: #d3869b;
+  padding: 0;
+  border: 0;
+}
+.textLayer .highlight.selected {
+  background-color: #ea6962;
+  border: 0;
+}
+
 /* 隐藏 LOGBOOK */
 .timestamp + .block-body {
   display: none;
